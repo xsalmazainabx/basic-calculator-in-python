@@ -1,0 +1,22 @@
+#This is a calcultor for solving basic arithmetic operations using python
+print("CALCULATOR")
+print("Enter your first number:")
+a=int(input())
+print("Enter your second number:")
+b=int(input())
+print("Enter the operator for calculation")
+d=str(input())
+if(d=="+"):
+    print("The addition of first and second number is",a+b)
+elif(d=="-"):
+ print("The subtraction of first and second number is",a-b)
+elif(d=="*"):
+    print("the multiplication of first and second number is",a*b)
+elif(d=="/"):
+    print("the multiplication of first and second number is",a/b)  
+elif(d=="//"):
+    print("the multiplication of first and second number is",a//b)
+else:
+        print("Wrong Operator")
+        print("You can only enter(+,-,*,/,//)")
+    
